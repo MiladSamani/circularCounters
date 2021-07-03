@@ -1,7 +1,5 @@
 #include "config.h"
-
 //****** Milad Samani - 962059895 ********
-//***************************
 unsigned char start, flag, i;
 int main (void){
 IO0DIR |=(0xFF<<8);
@@ -28,7 +26,6 @@ i++;
 if(i==9){
 IO0CLR |= (0xFF<<8);
 i=0;}}}}
-
 //****** Milad Samani - 962059895 ********
-//***************************
+
 
